@@ -63,10 +63,7 @@ public class BasicInputTest extends OutputTest
     @Test
     public void testMain_2()
     {
-        setTestInput("98765555\n" +
-                "0.01\n" +
-                "A\n" +
-                "Plethora");
+        setTestInput("54\n6.02\nm\nBye");
         BasicInput.main(new String[]{});
         String expected = "Enter integer:\n" +
                 "Enter double:\n" +
